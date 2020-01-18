@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": ["airbnb-base", "plugin:@typescript-eslint/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "import/extensions": 0,
+    "import/no-unresolved": 0, // https://github.com/typescript-eslint/typescript-eslint/issues/1116
+    "no-undef": 0,
+    "no-unused-expressions": 0,
+    "no-restricted-globals": 0,
+    "class-methods-use-this": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "no-await-in-loo": 0,
+    "no-loop-func": 0,
+    "no-constant-condition": 0
+  }
+}
