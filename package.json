@@ -7,7 +7,7 @@
     "ansi-regex": "^4.1.0",
     "ansi-escapes": "^4.3.0",
     "agent-base": "^4.3.0",
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "acorn-jsx": "^5.1.0",
     "arg": "^4.1.2",
     "argparse": "^1.0.10",
